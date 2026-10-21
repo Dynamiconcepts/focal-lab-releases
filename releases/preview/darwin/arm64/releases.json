@@ -1,4 +1,22 @@
 {
-  "currentRelease": null,
-  "releases": []
+  "currentRelease": "0.6.0",
+  "releases": [
+    {
+      "version": "0.6.0",
+      "updateTo": {
+        "version": "0.6.0",
+        "channel": "preview",
+        "name": "Focal Lab 0.6.0",
+        "url": "https://github.com/Dynamiconcepts/focal-lab-releases/releases/download/v0.6.0/FocalLab-0.6.0-Mac-AppleSilicon-Preview.zip",
+        "notes": "Added five research sliders, starting with Focal Lab default. Adjust sharpness, aberration control, bokeh, flare, and distortion / corner brightness without entering percentages.\nAdded an editing preference for lens corrections, keeping native and corrected findings distinct.\nCustom priorities guide best-fit research while preserving original measurements, evidence requirements, and uncertainty.\nSaved priorities with each research report and separated cached results when priorities change. New lens selections start with Focal Lab default.\nKept the default 50 / 20 / 15 / 10 / 5 optical priorities and added a one-click reset. Updates remain available through Download and restart.",
+        "pub_date": "2026-10-21T23:15:53.858Z",
+        "sha256": "6ed5f541c875e0a8cad7bb4ffe2d9d29045e0b90d12b236c4f7115e613603008",
+        "size": 123050466,
+        "platform": "darwin",
+        "arch": "arm64",
+        "bundleId": "lab.focal.desktop",
+        "minimumSystemVersion": "13.0.0"
+      }
+    }
+  ]
 }
