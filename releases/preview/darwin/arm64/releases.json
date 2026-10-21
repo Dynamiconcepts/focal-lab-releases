@@ -1,6 +1,23 @@
 {
-  "currentRelease": "0.6.0",
+  "currentRelease": "0.6.1",
   "releases": [
+    {
+      "version": "0.6.1",
+      "updateTo": {
+        "version": "0.6.1",
+        "channel": "preview",
+        "name": "Focal Lab 0.6.1",
+        "url": "https://github.com/Dynamiconcepts/focal-lab-releases/releases/download/v0.6.1/FocalLab-0.6.1-Mac-AppleSilicon-Preview.zip",
+        "notes": "Fixed the “Redirect was cancelled” error when downloading GitHub updates on macOS.\nKept the configured repository, allowed redirect host, archive-size check and SHA-256 verification for every update.\nIncludes all 0.6.0 features: five research priority sliders, Focal Lab default, editing preferences and saved report priorities.\nUpdated the manual installation instructions for existing Mac installations.\n\nVersions 0.5.1 and 0.6.0 need this one-time repair from Open downloads: quit Focal Lab, extract the 0.6.1 ZIP, and open Install_Focal_Lab.command. The installer preserves the workspace and replaces the existing application.\nPersonal preview: Apple Developer ID signing and notarization remain pending.\nLive ChatGPT research depends on account eligibility and service availability.",
+        "pub_date": "2026-10-21T23:40:20.160Z",
+        "sha256": "f2c4ff7ee6cb0b8d1146d34f0b280295333e0926a0423bf39f2171a7ec881ba3",
+        "size": 123051526,
+        "platform": "darwin",
+        "arch": "arm64",
+        "bundleId": "lab.focal.desktop",
+        "minimumSystemVersion": "13.0.0"
+      }
+    },
     {
       "version": "0.6.0",
       "updateTo": {
