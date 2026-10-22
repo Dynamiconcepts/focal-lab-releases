@@ -1,6 +1,23 @@
 {
-  "currentRelease": "0.6.3",
+  "currentRelease": "0.6.4",
   "releases": [
+    {
+      "version": "0.6.4",
+      "updateTo": {
+        "version": "0.6.4",
+        "channel": "preview",
+        "name": "Focal Lab 0.6.4",
+        "url": "https://github.com/Dynamiconcepts/focal-lab-releases/releases/download/v0.6.4/FocalLab-0.6.4-Mac-AppleSilicon-Preview.zip",
+        "notes": "Retains completed streamed report items when the service omits them from its final completion message. Interrupted or unfinished streams remain rejected.\nSeparates model progress messages from the final structured answer so commentary does not invalidate a completed research report.\nDownload PDF from a completed research report or its History entry, with findings, saved priorities, limitations, source links and numerical extractions.\nExport comparisons as PDFs from the comparison export menu. PDF exports work locally without starting another research request.\nPreserves report validation, unreviewed evidence status, Focal Lab default priorities and the existing Mac signing identity.\n\nResearch depends on service availability and a valid complete response; incomplete reports remain rejected.\nDevelopment-signed personal preview; Apple notarization remains pending.",
+        "pub_date": "2026-10-22T02:40:33.810Z",
+        "sha256": "d311208113a497493f1f46f25e7c6956edbe46ac41cf4e28d683a43a64a40cba",
+        "size": 123148225,
+        "platform": "darwin",
+        "arch": "arm64",
+        "bundleId": "lab.focal.desktop",
+        "minimumSystemVersion": "13.0.0"
+      }
+    },
     {
       "version": "0.6.3",
       "updateTo": {
