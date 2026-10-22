@@ -1,6 +1,23 @@
 {
-  "currentRelease": "0.6.2",
+  "currentRelease": "0.6.3",
   "releases": [
+    {
+      "version": "0.6.3",
+      "updateTo": {
+        "version": "0.6.3",
+        "channel": "preview",
+        "name": "Focal Lab 0.6.3",
+        "url": "https://github.com/Dynamiconcepts/focal-lab-releases/releases/download/v0.6.3/FocalLab-0.6.3-Mac-AppleSilicon-Preview.zip",
+        "notes": "Recognizes completed research streams even when the connection omits the response format header; incomplete or invalid reports remain rejected.\nResearch now shows connection, waiting, search and report stages based on actual progress.\nFailed, stopped and interrupted requests remain in History with their outcome; errors also remain visible on the Research page.\nCompleted streamed reports no longer wait for connection cleanup before returning. Stop also works when a response stream is silent.\nManual installation now uses Finder to avoid the temporary app location that caused the 0.6.2 installer to roll back.\nPreserves Focal Lab default sliders, Optical Protocol 1.1, saved work and the development signing identity.\n\nThis update improves result delivery and diagnostics. It cannot guarantee research service availability or account eligibility.\nFor manual installation, quit Focal Lab and use Finder to move Focal Lab.app into your existing Applications folder, replacing the earlier copy. Open that Applications copy.\nDevelopment-signed personal preview; Apple notarization remains pending.",
+        "pub_date": "2026-10-22T01:45:20.501Z",
+        "sha256": "c297cd57110eb33457588bbf7ac21a0500fd5e876a3a82370e4adb0accbf92a4",
+        "size": 123142169,
+        "platform": "darwin",
+        "arch": "arm64",
+        "bundleId": "lab.focal.desktop",
+        "minimumSystemVersion": "13.0.0"
+      }
+    },
     {
       "version": "0.6.2",
       "updateTo": {
