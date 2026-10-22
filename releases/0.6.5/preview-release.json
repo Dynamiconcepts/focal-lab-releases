@@ -1,0 +1,31 @@
+{
+  "version": "0.6.5",
+  "date": "2026-10-21",
+  "validation": {
+    "macUpdateTested": true,
+    "coreTests": 115,
+    "uiChecks": 40,
+    "packagedElectronPreparationVerified": true
+  },
+  "artifacts": [
+    {
+      "file": "FocalLab-0.6.5-Mac-AppleSilicon-Preview.zip",
+      "size": 123149211,
+      "sha256": "57ba41429405f9ae932a67acfe25f0de09363e50094dd6431a767772bcaac738"
+    }
+  ],
+  "updateTo": {
+    "version": "0.6.5",
+    "channel": "preview",
+    "name": "Focal Lab 0.6.5",
+    "url": "https://github.com/Dynamiconcepts/focal-lab-releases/releases/download/v0.6.5/FocalLab-0.6.5-Mac-AppleSilicon-Preview.zip",
+    "notes": "Fixes the Invalid package error while extracting the downloaded application inside Focal Lab.\nPreserves the complete signed application, verifies its developer signature and download integrity, then replaces and restarts the Applications copy.\nRetains saved work, sign-in, research report delivery and Download PDF from Research, History and comparison exports.\nUpdates are tested from the packaged Mac app through extraction, signature verification, replacement and restart.\n\nVersions through 0.6.4 require one direct installation of 0.6.5 because their installed updater cannot extract the new application. Future updates use Download and restart.\nDevelopment-signed personal preview; Apple notarization remains pending.",
+    "pub_date": "2026-10-22T02:57:24.062Z",
+    "sha256": "57ba41429405f9ae932a67acfe25f0de09363e50094dd6431a767772bcaac738",
+    "size": 123149211,
+    "platform": "darwin",
+    "arch": "arm64",
+    "bundleId": "lab.focal.desktop",
+    "minimumSystemVersion": "13.0.0"
+  }
+}
