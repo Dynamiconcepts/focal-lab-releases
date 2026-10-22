@@ -1,6 +1,23 @@
 {
-  "currentRelease": "0.6.6",
+  "currentRelease": "0.6.7",
   "releases": [
+    {
+      "version": "0.6.7",
+      "updateTo": {
+        "version": "0.6.7",
+        "channel": "preview",
+        "name": "Focal Lab 0.6.7",
+        "url": "https://github.com/Dynamiconcepts/focal-lab-releases/releases/download/v0.6.7/FocalLab-0.6.7-Mac-AppleSilicon-Preview.zip",
+        "notes": "Open the Sigma 40 mm and 105 mm example from Research, with eight-aperture center and edge charts, source-linked specifications, strengths, tradeoffs and a practical conclusion.\nRead approved source pictures from your chosen local library, with attribution and checksum checks. Originals stay in your library and are not included in GitHub releases.\nResearch requests now ask for individual lens guides and qualitative assessments for all five optical categories. Numerical charts retain the original metric, units, conditions and uncertainty.\nDownload the complete report as a PDF, including available local illustrations and the measurement table.\nOffline collection separates measured data, reference specifications and correction profiles. Lensfun distortion coefficients have readable model curves and optional technical details.\nReusable, paced collection and browser-import scripts support future brands without AI service calls. Wider downloading is held until the example is reviewed.\nPreserves the repaired in-app updater, existing signing identity, research history and Focal Lab default priorities.\n\nThe example graph readings are approximate, with a separate digitization tolerance; they are not a new laboratory test.\nPublisher illustrations require the chosen personal library folder to remain available locally. Future reports depend on the evidence available for the selected lenses.\nDevelopment-signed personal preview; Apple notarization remains pending.",
+        "pub_date": "2026-10-22T05:32:48.589Z",
+        "sha256": "92e661168c58ba6a2231a347e7eff76caf53816a2334294ca9d162c868693c86",
+        "size": 123175501,
+        "platform": "darwin",
+        "arch": "arm64",
+        "bundleId": "lab.focal.desktop",
+        "minimumSystemVersion": "13.0.0"
+      }
+    },
     {
       "version": "0.6.6",
       "updateTo": {
