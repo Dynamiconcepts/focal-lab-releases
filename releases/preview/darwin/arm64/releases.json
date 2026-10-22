@@ -1,6 +1,23 @@
 {
-  "currentRelease": "0.7.0",
+  "currentRelease": "0.7.1",
   "releases": [
+    {
+      "version": "0.7.1",
+      "updateTo": {
+        "version": "0.7.1",
+        "channel": "preview",
+        "name": "Focal Lab 0.7.1",
+        "url": "https://github.com/Dynamiconcepts/focal-lab-releases/releases/download/v0.7.1/FocalLab-0.7.1-Mac-AppleSilicon-Preview.zip",
+        "notes": "The Sigma 40 mm and 105 mm examples now end with illustrated findings: selected original images, what to look for, and what each strength or compromise means in practice.\nSeven visual findings per lens cover detail, color fringing and focus shift, background blur, point lights, corner brightness, flare and autofocus. Each image keeps its source and test context and can be enlarged.\nThe full photo gallery and original reviews are kept in an expandable archive. The concise visual conclusion is also included in lens and research PDF exports.\nMeasurements and test conditions show useful supplied values and omit empty, unknown and inapplicable rows. Original saved evidence remains unchanged.\nThe updated Sigma comparison is saved as a new example; existing research history, in-app updates and Focal Lab default priorities are preserved.\n\nSelected images illustrate documented findings; a single photograph cannot establish autofocus speed or reliability. Test differences remain explicit.\nThe Digital Picture interactive alternatives and linked full-size galleries remain incomplete. Wider downloading stays on hold while these two examples are reviewed.\nDevelopment-signed personal preview; Apple notarization remains pending.",
+        "pub_date": "2026-10-22T18:20:44.108Z",
+        "sha256": "9f204874f06ead3188d9f6381030a8f1352f85bd62dd08371911d1e47267f9ad",
+        "size": 123198443,
+        "platform": "darwin",
+        "arch": "arm64",
+        "bundleId": "lab.focal.desktop",
+        "minimumSystemVersion": "13.0.0"
+      }
+    },
     {
       "version": "0.7.0",
       "updateTo": {
