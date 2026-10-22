@@ -1,6 +1,23 @@
 {
-  "currentRelease": "0.6.7",
+  "currentRelease": "0.6.8",
   "releases": [
+    {
+      "version": "0.6.8",
+      "updateTo": {
+        "version": "0.6.8",
+        "channel": "preview",
+        "name": "Focal Lab 0.6.8",
+        "url": "https://github.com/Dynamiconcepts/focal-lab-releases/releases/download/v0.6.8/FocalLab-0.6.8-Mac-AppleSilicon-Preview.zip",
+        "notes": "Offline collection only shows Open this lens’s files when that exact lens has an indexed, accessible local folder.\nLenses with saved charts but no photo or review archive now show Not downloaded yet and a link to the original source. Chart and number downloads remain available.\nChoosing a library folder refreshes availability immediately. Missing folders and unreadable indexes show a reconnect message instead of a misleading download status.\nPreserves the Sigma 40 mm and 105 mm example, personal library files, research history and the in-app updater. Wider collecting remains paused for example review.\n\nThis update corrects file availability labels; it does not download additional lens archives.\nDevelopment-signed personal preview; Apple notarization remains pending.",
+        "pub_date": "2026-10-22T17:19:53.764Z",
+        "sha256": "e5a86c06ed33745367fb0600d1db6f12bb4985f0c4888ff36c8c748631a40ffd",
+        "size": 123177114,
+        "platform": "darwin",
+        "arch": "arm64",
+        "bundleId": "lab.focal.desktop",
+        "minimumSystemVersion": "13.0.0"
+      }
+    },
     {
       "version": "0.6.7",
       "updateTo": {
