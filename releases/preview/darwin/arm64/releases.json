@@ -1,6 +1,23 @@
 {
-  "currentRelease": "0.6.8",
+  "currentRelease": "0.7.0",
   "releases": [
+    {
+      "version": "0.7.0",
+      "updateTo": {
+        "version": "0.7.0",
+        "channel": "preview",
+        "name": "Focal Lab 0.7.0",
+        "url": "https://github.com/Dynamiconcepts/focal-lab-releases/releases/download/v0.7.0/FocalLab-0.7.0-Mac-AppleSilicon-Preview.zip",
+        "notes": "Offline collection opens with brand filters and one row per lens name and generation, grouping its mount variants. The lens catalogue opens the same lens pages.\nEach lens page brings together saved charts, specifications, Focal Lab assessments, source agreements and disagreements, local photographs, review chapters, correction data and a practical conclusion.\nBrowse approved personal source images by publisher and section, read saved review text inside the app and export the consolidated lens page as a PDF. Files are checked locally against their recorded checksums.\nThe Sigma 40 mm and 105 mm pages contain a source-based Focal Lab conclusion. New research requests explain how each source supports the assessment and keep unresolved conflicts visible. Preferences affect suitability, not source credibility.\nCollection counts now explain the difference between lens/mount entries, correction records and the wider unmerged specification references. Dynamic link checks detect missing or mismatched records.\nPreserves in-app updates, saved comparisons, research history and Focal Lab default priorities. No wider publisher collection is started by this update.\n\nLens pages show available evidence; many lenses have only partial measurements or correction data. This does not certify all 16,454 reference records.\nThe Digital Picture archives contain the main reviews and default images. Interactive alternatives and linked full-size galleries remain incomplete.\nDevelopment-signed personal preview; Apple notarization remains pending.",
+        "pub_date": "2026-10-22T17:49:34.007Z",
+        "sha256": "14466d8ee8dc055e0cfa4ab5dcbcdd9d4c2d1493e3f2b620fb9f82bcc46d2d39",
+        "size": 123189210,
+        "platform": "darwin",
+        "arch": "arm64",
+        "bundleId": "lab.focal.desktop",
+        "minimumSystemVersion": "13.0.0"
+      }
+    },
     {
       "version": "0.6.8",
       "updateTo": {
