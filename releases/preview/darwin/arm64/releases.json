@@ -1,6 +1,23 @@
 {
-  "currentRelease": "0.6.5",
+  "currentRelease": "0.6.6",
   "releases": [
+    {
+      "version": "0.6.6",
+      "updateTo": {
+        "version": "0.6.6",
+        "channel": "preview",
+        "name": "Focal Lab 0.6.6",
+        "url": "https://github.com/Dynamiconcepts/focal-lab-releases/releases/download/v0.6.6/FocalLab-0.6.6-Mac-AppleSilicon-Preview.zip",
+        "notes": "Research automatically adapts to your selected lenses. Choose Automatic, Same focal length or Different focal lengths; the chosen approach is saved with each report.\nReports open with a clear conclusion and next step. Internal lens codes are replaced with lens names, citations are readable links, and supporting detail is separated from the main answer.\nResearch and comparison PDFs include charts from saved numerical measurements, with source labels, units, missing-value gaps and separate test conditions.\nReports without numerical measurements explain why no performance chart can be drawn. Older reports with a focal-length mismatch show a simple setup diagram.\nRetains Focal Lab default priorities, evidence validation, saved history, PDF downloads and the repaired in-app updater from 0.6.5.\n\nDifferent focal lengths change framing; results describe tradeoffs and fit rather than a controlled same-focal-length optical ranking.\nCharts require actual saved numerical measurements. Existing reports are preserved; run Research again to obtain a new comparison.\nDevelopment-signed personal preview; Apple notarization remains pending.",
+        "pub_date": "2026-10-22T03:27:09.084Z",
+        "sha256": "6c1d3496b497303d03ca5ee15dc03fdd17be380f96d14bc4c7c6018d687055db",
+        "size": 123155972,
+        "platform": "darwin",
+        "arch": "arm64",
+        "bundleId": "lab.focal.desktop",
+        "minimumSystemVersion": "13.0.0"
+      }
+    },
     {
       "version": "0.6.5",
       "updateTo": {
