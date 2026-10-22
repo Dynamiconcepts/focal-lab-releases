@@ -1,6 +1,23 @@
 {
-  "currentRelease": "0.6.1",
+  "currentRelease": "0.6.2",
   "releases": [
+    {
+      "version": "0.6.2",
+      "updateTo": {
+        "version": "0.6.2",
+        "channel": "preview",
+        "name": "Focal Lab 0.6.2",
+        "url": "https://github.com/Dynamiconcepts/focal-lab-releases/releases/download/v0.6.2/FocalLab-0.6.2-Mac-AppleSilicon-Preview.zip",
+        "notes": "Signed the personal Mac preview with a consistent Apple development identity.\nInstallation and future updates preserve the release signature instead of replacing it with a temporary local signature.\nUpdates verify the expected Focal Lab developer identity before replacing the app.\nIncludes the repaired GitHub downloader from 0.6.1 and all research priority sliders.\n\nInstall this version once from Open downloads to establish the new signing identity; versions through 0.6.1 replace preview signatures during updates.\nmacOS may request one Keychain approval when moving to the new identity. Ordinary restarts should retain that approval.\nThis personal development preview is not a notarized Developer ID release.\nLive ChatGPT research still depends on account eligibility and service availability.",
+        "pub_date": "2026-10-22T00:20:36.274Z",
+        "sha256": "4ff01a575fcb87b0acc7f187d0bba415f83504d4b2914fee0acaa94ddfa2262f",
+        "size": 123139724,
+        "platform": "darwin",
+        "arch": "arm64",
+        "bundleId": "lab.focal.desktop",
+        "minimumSystemVersion": "13.0.0"
+      }
+    },
     {
       "version": "0.6.1",
       "updateTo": {
