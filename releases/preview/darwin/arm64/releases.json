@@ -1,6 +1,23 @@
 {
-  "currentRelease": "0.7.2",
+  "currentRelease": "0.8.0",
   "releases": [
+    {
+      "version": "0.8.0",
+      "updateTo": {
+        "version": "0.8.0",
+        "channel": "preview",
+        "name": "Focal Lab 0.8.0",
+        "url": "https://github.com/Dynamiconcepts/focal-lab-releases/releases/download/v0.8.0/FocalLab-0.8.0-Mac-AppleSilicon-Preview.zip",
+        "notes": "Adds a US price guide in USD before shipping and tax to every lens page: new retail, the highest observed top-condition asking price, and the used asking-price average, median and range.\nIncludes seven checked Sigma model/mount snapshots and 47 observed offers. Seller grades, source links, sample size, limited coverage and the date checked stay visible. An unavailable or unverified offer does not enter an average.\nCheck current prices uses the connected ChatGPT plan with a focused low-effort lookup. Completed results require exact model/mount data and opened source links. Stop and failed requests preserve the previous saved prices.\nSaved prices work offline and appear in lens PDFs. Successful refreshes also save a dated copy in the connected lens folder when available. Prices remain separate from optical measurements and research history.\nNew, open-box, like-new used, ordinary used, historical MSRP and verified completed sales remain distinct. Observations older than seven days invite a recheck; those older than 30 days are marked historical.\nResumes Sigma collection after approval of the five 0.7.2 lens pages. The selected 12–24mm F4 HSM Art full-size gallery is now verified in the private library; archived material still needs its own finished lens assessment. Preserves in-app updates and existing lens pages.\n\nPrice samples are observed asking offers, not a valuation or a complete market survey. Stock and prices may change. eBay sold prices and MSRP appear only when independently verified; neither was established in the bundled snapshots.\nSome lenses have no available new stock or no verified offer. Online refresh depends on the ChatGPT connection and source availability; websites may block automated reading. There is no paid API-key billing in this app.\nPublisher originals stay in the private Proton Drive library and are not included in the installer. Keep them downloaded locally for offline images.\nDevelopment-signed personal preview; Apple notarization remains pending.",
+        "pub_date": "2026-10-23T02:54:18.422Z",
+        "sha256": "909776d516444bcc43f69651fb969fd6fcb850012e801144de6db0a4aafa04d0",
+        "size": 123240310,
+        "platform": "darwin",
+        "arch": "arm64",
+        "bundleId": "lab.focal.desktop",
+        "minimumSystemVersion": "13.0.0"
+      }
+    },
     {
       "version": "0.7.2",
       "updateTo": {
