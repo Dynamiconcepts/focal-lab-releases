@@ -1,6 +1,23 @@
 {
-  "currentRelease": "0.8.0",
+  "currentRelease": "0.8.1",
   "releases": [
+    {
+      "version": "0.8.1",
+      "updateTo": {
+        "version": "0.8.1",
+        "channel": "preview",
+        "name": "Focal Lab 0.8.1",
+        "url": "https://github.com/Dynamiconcepts/focal-lab-releases/releases/download/v0.8.1/FocalLab-0.8.1-Mac-AppleSilicon-Preview.zip",
+        "notes": "Keeps lens PDF section headings with the content below them, including Offers, conditions & sources.\nKeeps individual offer rows, short lists and test-condition blocks together while long tables continue across pages with repeated column labels.\nGives the price table more room for seller details and notes. Charts, selected evidence images, source links and conclusions remain in the exported lens page.\n\nExisting PDF files keep their original layout. Export the lens again after updating to create a corrected PDF.\nDevelopment-signed personal preview; Apple notarization remains pending.",
+        "pub_date": "2026-10-23T04:11:15.117Z",
+        "sha256": "2657dc3e2033a842b82aa088db6510e6252b5362571c373705fa3e78efeb1e2c",
+        "size": 123241561,
+        "platform": "darwin",
+        "arch": "arm64",
+        "bundleId": "lab.focal.desktop",
+        "minimumSystemVersion": "13.0.0"
+      }
+    },
     {
       "version": "0.8.0",
       "updateTo": {
