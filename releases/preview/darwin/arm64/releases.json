@@ -1,6 +1,23 @@
 {
-  "currentRelease": "0.8.2",
+  "currentRelease": "0.8.3",
   "releases": [
+    {
+      "version": "0.8.3",
+      "updateTo": {
+        "version": "0.8.3",
+        "channel": "preview",
+        "name": "Focal Lab 0.8.3",
+        "url": "https://github.com/Dynamiconcepts/focal-lab-releases/releases/download/v0.8.3/FocalLab-0.8.3-Mac-AppleSilicon-Preview.zip",
+        "notes": "Removes the old Sony FE 50mm F1.4 GM and Voigtländer APO-Lanthar 50mm F2 starter measurements from Evidence and the saved-data view in Offline collection. They are no longer added back at startup.\nKeeps the Sigma 50mm F1.2 DG DN Art measurements: its rounded values were checked against the original LensTip resolution chart saved in the private library. They remain approximate MTF50 readings, not an overall optical rating.\nApplies the cleanup once to existing workspaces and personal measurement caches, retaining a recovery copy of removed records and preserving research history, catalogue identities and downloaded source files.\nExplains the two workflows in the interface: Compare uses saved, reviewed measurements and local calculations; Research uses ChatGPT to investigate sources and create a broader saved report.\n\nThe remaining Sigma starter is one resolution dataset, not a complete lens assessment. Other optical qualities still require evidence.\nNew deliberately imported or researched evidence can be added later; this cleanup does not permanently exclude a brand.\nDevelopment-signed personal preview; Apple notarization remains pending.",
+        "pub_date": "2026-10-23T04:59:18.934Z",
+        "sha256": "740372ada04ea5e958f99ddd9b2652680d6ab38198932ea5e6e478ec0ccce079",
+        "size": 123250551,
+        "platform": "darwin",
+        "arch": "arm64",
+        "bundleId": "lab.focal.desktop",
+        "minimumSystemVersion": "13.0.0"
+      }
+    },
     {
       "version": "0.8.2",
       "updateTo": {
