@@ -1,6 +1,23 @@
 {
-  "currentRelease": "0.7.1",
+  "currentRelease": "0.7.2",
   "releases": [
+    {
+      "version": "0.7.2",
+      "updateTo": {
+        "version": "0.7.2",
+        "channel": "preview",
+        "name": "Focal Lab 0.7.2",
+        "url": "https://github.com/Dynamiconcepts/focal-lab-releases/releases/download/v0.7.2/FocalLab-0.7.2-Mac-AppleSilicon-Preview.zip",
+        "notes": "Adds complete offline pages for Sigma 20mm F1.4, 24mm F1.4, 85mm F1.4 and 135mm F1.8 DG HSM Art, plus 56mm F1.4 DC DN Contemporary (Sony E). Open Offline collection, choose Sigma, then open a lens.\nThe five pages contain nine charts, 35 illustrated findings and 59 selected evidence images, with specifications, strengths, compromises and a practical Focal Lab conclusion. Each page can be exported as a PDF.\nRedraws four LensTip resolution graphs with explicit approximation tolerances and transcribes the exact OpticalLimits 56mm table. Camera, units, native/corrected behaviour and source discrepancies remain separate.\nLinks the three previously missing catalogue identities to their personal archives. The catalogue now contains 978 lens/mount entries; correction profiles and wider reference counts are unchanged.\nFixes collection of charts from newer LensTip image folders. Original reviews, diagnostic images and full-size galleries stay in the organized personal Proton Drive library.\nPreserves the approved 40mm and 105mm pages, saved work, Focal Lab default priorities and the in-app updater. Wider collection is paused for review of these five pages.\n\nPublisher originals are personal library files and are not included in the installer. Keep the connected Proton Drive files downloaded locally for offline images.\nThe 56mm resolution-test camera is not explicitly identified by its selected source. Qualitative assessments are not universal numerical rankings; approximate chart readings remain labelled.\nDevelopment-signed personal preview; Apple notarization remains pending.",
+        "pub_date": "2026-10-23T02:10:56.183Z",
+        "sha256": "1b65f2202407e615d61ff843d8e84eb4067a272e3826724d34306a84d7810310",
+        "size": 123227556,
+        "platform": "darwin",
+        "arch": "arm64",
+        "bundleId": "lab.focal.desktop",
+        "minimumSystemVersion": "13.0.0"
+      }
+    },
     {
       "version": "0.7.1",
       "updateTo": {
