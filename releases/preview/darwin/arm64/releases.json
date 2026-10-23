@@ -1,6 +1,23 @@
 {
-  "currentRelease": "0.8.1",
+  "currentRelease": "0.8.2",
   "releases": [
+    {
+      "version": "0.8.2",
+      "updateTo": {
+        "version": "0.8.2",
+        "channel": "preview",
+        "name": "Focal Lab 0.8.2",
+        "url": "https://github.com/Dynamiconcepts/focal-lab-releases/releases/download/v0.8.2/FocalLab-0.8.2-Mac-AppleSilicon-Preview.zip",
+        "notes": "Adds a live download tracker at the top of Offline collection, with the percentage of planned lens archives saved, remaining lenses, source discovery gaps, picture count and storage size.\nShows the current or last attempted lens, recent activity, source outages and whether the collector is running, waiting or stopped. Refreshes every five seconds while visible using local records, without AI or website requests.\nKeeps downloaded source archives separate from completed Focal Lab assessments. Missing source files remain visible as gaps; a stopped collector is never presented as an active download.\nClarifies Optical Protocol 1.1 and Research Priorities Addendum 1.0: default priorities remain 50/20/15/10/5; sliders create a saved personal best-fit profile without altering measurements or evidence safeguards.\n\nThe tracker reads the connected local library and the collection worker; it does not start or resume downloads. Publisher outages and rate limits can pause collection.\nThe percentage covers the current planned lens groups, not a certified inventory of every lens ever made. Finishing downloads does not mean every lens assessment has been completed.\nDevelopment-signed personal preview; Apple notarization remains pending.",
+        "pub_date": "2026-10-23T04:45:42.972Z",
+        "sha256": "09690d0155d368b8aff2185db1a0de301ed71545e38ae8ed2c0ae06db8f665bf",
+        "size": 123248274,
+        "platform": "darwin",
+        "arch": "arm64",
+        "bundleId": "lab.focal.desktop",
+        "minimumSystemVersion": "13.0.0"
+      }
+    },
     {
       "version": "0.8.1",
       "updateTo": {
